@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "@fontsource/poppins/400.css";
+@import "@fontsource/poppins/700.css";
+
+@theme {
+  --color-brand: #3b82f6;
+  --color-primary: #10b981;
+  --color-midnight: #0f172a;
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+}
