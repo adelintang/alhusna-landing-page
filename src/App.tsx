@@ -1,5 +1,9 @@
-const App = () => {
-  return <h1 className="text-primary font-sans">Hello World</h1>;
-};
+import { HeroSection } from "./components/sections/HeroSection";
 
-export default App;
+export const App = (): React.ReactElement => {
+  return (
+    <main className="bg-light min-h-screen">
+      <HeroSection />
+    </main>
+  );
+};
