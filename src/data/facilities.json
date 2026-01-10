@@ -1,0 +1,50 @@
+{
+  "sectionTitle": "Fasilitas Kami",
+  "sectionSubtitle": "Lingkungan belajar modern yang mendukung perkembangan optimal siswa",
+  "facilities": [
+    {
+      "id": "classroom",
+      "title": "Ruang Kelas Modern",
+      "description": "Ruang kelas ber-AC dengan smart board interaktif, proyektor HD, dan furniture ergonomis untuk kenyamanan belajar.",
+      "image": "https://images.unsplash.com/photo-1580537659466-0a9bfa916a54?auto=format&fit=crop&w=800&q=80",
+      "features": ["Smart Board", "AC", "Proyektor HD"]
+    },
+    {
+      "id": "library",
+      "title": "Perpustakaan",
+      "description": "Koleksi lebih dari 15.000 buku, area baca yang nyaman, dan akses ke database jurnal digital internasional.",
+      "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=800&q=80",
+      "features": ["15.000+ Buku", "E-Library", "Ruang Baca"]
+    },
+    {
+      "id": "laboratory",
+      "title": "Laboratorium Sains",
+      "description": "Lab Fisika, Kimia, dan Biologi dengan peralatan lengkap untuk eksperimen dan praktikum siswa.",
+      "image": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80",
+      "features": ["Lab Fisika", "Lab Kimia", "Lab Biologi"]
+    },
+    {
+      "id": "computer-lab",
+      "title": "Lab Komputer",
+      "description": "50 unit komputer terbaru dengan koneksi internet high-speed untuk pembelajaran teknologi dan coding.",
+      "image": "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=800&q=80",
+      "features": ["50 Komputer", "Internet Cepat", "Software Lengkap"]
+    },
+    {
+      "id": "sports",
+      "title": "Fasilitas Olahraga",
+      "description": "Lapangan basket indoor, lapangan futsal, kolam renang olimpiade, dan gymnasium lengkap.",
+      "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=800&q=80",
+      "features": ["Lapangan Basket", "Kolam Renang", "Gymnasium"]
+    },
+    {
+      "id": "auditorium",
+      "title": "Auditorium",
+      "description": "Auditorium berkapasitas 500 orang dengan sistem audio visual profesional untuk acara dan pertunjukan.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
+      "features": ["500 Kursi", "Sound System", "Lighting Pro"]
+    }
+  ],
+  "ctaText": "Jadwalkan Kunjungan",
+  "ctaHref": "#contact"
+}
