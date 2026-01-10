@@ -1,0 +1,55 @@
+{
+  "sectionTitle": "Program Akademik",
+  "sectionSubtitle": "Temukan kurikulum komprehensif kami yang dirancang untuk mengembangkan potensi setiap siswa",
+  "programs": [
+    {
+      "id": "early-childhood",
+      "title": "Pendidikan Anak Usia Dini",
+      "description": "Lingkungan yang penuh kasih untuk usia 3-6 tahun yang membangun keterampilan dasar melalui pembelajaran berbasis bermain dan eksplorasi kreatif.",
+      "icon": "child",
+      "grades": "PAUD - TK",
+      "highlights": ["Belajar sambil bermain", "Pengembangan sosial", "Literasi dini"]
+    },
+    {
+      "id": "elementary",
+      "title": "Sekolah Dasar",
+      "description": "Membangun fondasi akademik yang kuat dalam membaca, menulis, matematika, dan sains sambil menumbuhkan rasa ingin tahu dan kreativitas.",
+      "icon": "book",
+      "grades": "Kelas 1 - 6",
+      "highlights": ["Akademik inti", "Integrasi seni", "Pendidikan karakter"]
+    },
+    {
+      "id": "middle-school",
+      "title": "Sekolah Menengah Pertama",
+      "description": "Mempersiapkan siswa untuk SMA dengan kurikulum yang menantang, keterampilan berpikir kritis, dan program pengembangan diri.",
+      "icon": "academic",
+      "grades": "Kelas 7 - 9",
+      "highlights": ["Kursus lanjutan", "Program kepemimpinan", "Fokus STEM"]
+    },
+    {
+      "id": "high-school",
+      "title": "Sekolah Menengah Atas",
+      "description": "Kurikulum persiapan perguruan tinggi dengan beragam mata pelajaran pilihan, program unggulan, dan kegiatan ekstrakurikuler.",
+      "icon": "graduation",
+      "grades": "Kelas 10 - 12",
+      "highlights": ["Program unggulan", "Persiapan kuliah", "Bimbingan karir"]
+    },
+    {
+      "id": "stem",
+      "title": "Program STEM",
+      "description": "Pendidikan sains, teknologi, teknik, dan matematika secara langsung dengan laboratorium modern dan proyek dunia nyata.",
+      "icon": "beaker",
+      "grades": "Semua Jenjang",
+      "highlights": ["Robotika", "Coding", "Lab sains"]
+    },
+    {
+      "id": "arts",
+      "title": "Seni & Musik",
+      "description": "Program seni visual dan pertunjukan yang komprehensif untuk mendorong ekspresi kreatif dan keunggulan artistik.",
+      "icon": "music",
+      "grades": "Semua Jenjang",
+      "highlights": ["Seni rupa", "Orkestra", "Drama"]
+    }
+  ],
+  "ctaText": "Lihat Semua Program"
+}
