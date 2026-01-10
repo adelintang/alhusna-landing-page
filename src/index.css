@@ -10,3 +10,13 @@
   --color-surface: #ffffff;
   --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
