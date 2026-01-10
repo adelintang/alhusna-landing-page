@@ -1,0 +1,20 @@
+{
+  "brand": {
+    "name": "Greenwood Academy",
+    "href": "#"
+  },
+  "links": [
+    { "id": "home", "label": "Beranda", "href": "#" },
+    { "id": "about", "label": "Tentang Kami", "href": "#about" },
+    { "id": "programs", "label": "Program", "href": "#programs" },
+    { "id": "facilities", "label": "Fasilitas", "href": "#facilities" },
+    { "id": "admissions", "label": "Pendaftaran", "href": "#admissions" },
+    { "id": "contact", "label": "Kontak", "href": "#contact" }
+  ],
+  "cta": {
+    "text": "Daftar Sekarang",
+    "href": "#admissions"
+  },
+  "mobileMenuLabel": "Menu",
+  "closeMenuLabel": "Tutup menu"
+}
