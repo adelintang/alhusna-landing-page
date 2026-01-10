@@ -1,0 +1,251 @@
+# School Landing Page - Project Rules & Context
+
+## Project Overview
+
+This is an informational landing page for an educational institution (school).
+The website serves as the primary digital presence to inform parents, students,
+and the community about the school.
+
+## Tech Stack
+
+- **Framework**: React 18+ with Vite
+- **Language**: TypeScript (strict mode)
+- **Styling**: Tailwind CSS
+- **Component Pattern**: Functional components with React Hooks only
+- **Build Tool**: Vite
+
+## Coding Standards
+
+### React
+
+- Use ONLY functional components with hooks
+- Prefer named exports over default exports
+- Use TypeScript interfaces for props and state
+- Keep components small and focused (single responsibility)
+- Use proper React patterns (memo, useCallback, useMemo when needed)
+
+### TypeScript
+
+- Enable strict mode
+- Define explicit types for props, state, and return values
+- Use interfaces for object shapes, types for unions/primitives
+- Avoid 'any' type - use 'unknown' if type is truly unknown
+
+### Tailwind CSS
+
+- Follow mobile-first approach (design for mobile, then scale up)
+- Use semantic color names from tailwind.config.js
+- Prefer Tailwind utilities over custom CSS
+- Use responsive prefixes: sm:, md:, lg:, xl:, 2xl:
+- Group related utilities together for readability
+- Don't use @apply unless absolutely necessary
+
+### File Structure
+
+```
+src/
+├── components/
+│   ├── layout/          # Header, Footer, Navigation
+│   ├── sections/        # Hero, About, Programs, etc.
+│   ├── ui/              # Reusable UI components (Button, Card, etc.)
+│   └── common/          # Shared components
+├── assets/
+│   ├── images/
+│   └── icons/
+├── types/               # TypeScript type definitions
+├── utils/               # Helper functions
+├── hooks/               # Custom React hooks
+└── data/                # Static data, content
+```
+
+## School Landing Page Content Structure
+
+### Required Sections
+
+1. **Hero Section**
+
+   - School name and tagline
+   - Eye-catching image/video
+   - Primary CTA (e.g., "Apply Now", "Schedule Visit")
+   - Quick links
+
+2. **About School**
+
+   - School history and background
+   - Vision and mission statement
+   - Core values and philosophy
+   - Accreditations and affiliations
+
+3. **Academic Programs**
+
+   - Grade levels offered (TK/Kindergarten, Elementary, Middle, High School)
+   - Curriculum overview
+   - Special programs (STEM, Arts, Language, etc.)
+   - Extracurricular activities
+   - Academic achievements
+
+4. **Facilities**
+
+   - Classrooms and laboratories
+   - Library and learning resources
+   - Sports facilities
+   - Computer labs
+   - Cafeteria
+   - Other amenities
+
+5. **Faculty & Staff**
+
+   - Teacher qualifications
+   - Student-teacher ratio
+   - Professional development programs
+   - Staff directory (optional)
+
+6. **Admissions**
+
+   - Enrollment process
+   - Requirements and documents needed
+   - Tuition and fees
+   - Scholarship information
+   - Important dates and deadlines
+   - Download forms
+
+7. **News & Events**
+
+   - Latest school news
+   - Upcoming events calendar
+   - Photo galleries
+   - Achievements and awards
+
+8. **Student Life**
+
+   - Daily schedule
+   - Clubs and organizations
+   - Sports teams
+   - Student testimonials
+   - School culture
+
+9. **Parent Resources**
+
+   - Parent portal information
+   - PTA/Parent association
+   - Communication channels
+   - School policies
+   - Calendar and holidays
+
+10. **Contact Information**
+    - School address with map
+    - Phone numbers
+    - Email addresses
+    - Office hours
+    - Contact form
+    - Social media links
+
+### Common Features
+
+- Responsive navigation menu
+- Search functionality
+- Language switcher (if multilingual)
+- Announcements banner
+- Photo/video galleries
+- Virtual tour option
+- FAQ section
+- Newsletter signup
+- Testimonials carousel
+
+## Design Principles
+
+- **Accessibility First**: WCAG 2.1 AA compliance
+- **Performance**: Optimize images, lazy loading
+- **Mobile Responsive**: All sections must work perfectly on mobile
+- **Professional**: Clean, trustworthy, welcoming design
+- **User-Friendly**: Easy navigation, clear CTAs
+- **Informative**: Content-rich but not overwhelming
+
+## Component Naming Conventions
+
+- Components: PascalCase (e.g., `HeroSection.tsx`, `ProgramCard.tsx`)
+- Files: Match component name
+- Props interfaces: `ComponentNameProps`
+- Hooks: camelCase with 'use' prefix (e.g., `useScrollPosition`)
+
+## Best Practices
+
+### Performance
+
+- Lazy load images below the fold
+- Use appropriate image formats (WebP with fallbacks)
+- Code splitting for route-based components
+- Minimize bundle size
+
+### SEO
+
+- Use semantic HTML (header, main, section, article, footer)
+- Proper heading hierarchy (h1 → h2 → h3)
+- Alt text for all images
+- Meta descriptions for pages
+
+### Accessibility
+
+- Proper ARIA labels
+- Keyboard navigation support
+- Sufficient color contrast
+- Focus indicators
+- Screen reader friendly
+
+## Don't Do
+
+- ❌ Don't use class components
+- ❌ Don't use inline styles (use Tailwind)
+- ❌ Don't use default exports
+- ❌ Don't ignore TypeScript errors
+- ❌ Don't hardcode content (use data files)
+- ❌ Don't use 'any' type
+- ❌ Don't create god components (keep them focused)
+- ❌ Don't forget responsive design
+- ❌ Don't skip accessibility attributes
+
+## Data Management
+
+- Store static content in JSON files under `src/data/`
+- Use TypeScript interfaces to type content data
+- Keep content separate from components for easy updates
+- Example: `src/data/programs.json`, `src/data/faculty.json`
+
+## Git Workflow
+
+- Use meaningful commit messages
+- Keep commits atomic and focused
+- Branch naming: feature/_, bugfix/_, hotfix/\*
+
+## Questions to Ask Before Implementation
+
+1. Is this component reusable? → Put in ui/ or common/
+2. Is this section-specific? → Put in sections/
+3. Does this need to be responsive? → Always yes
+4. Is this accessible? → Always check
+5. Is the TypeScript type safe? → No 'any' allowed
+
+## Current Priority
+
+Focus on creating a professional, informative, and welcoming landing page
+that helps parents and students learn about the school and encourages enrollment.
+
+## Struktur Folder Tambahan yang Disarankan
+
+```
+src/
+├── data/
+│ ├── school-info.json
+│ ├── programs.json
+│ ├── facilities.json
+│ ├── events.json
+│ └── testimonials.json
+├── types/
+│ ├── school.types.ts
+│ ├── program.types.ts
+│ └── event.types.ts
+└── constants/
+├── navigation.ts
+└── config.ts
+
+```
