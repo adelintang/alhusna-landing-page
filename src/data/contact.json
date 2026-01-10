@@ -1,0 +1,65 @@
+{
+  "sectionTitle": "Hubungi Kami",
+  "sectionSubtitle": "Kami siap membantu menjawab pertanyaan Anda tentang pendaftaran dan informasi sekolah",
+  "contactInfo": {
+    "address": {
+      "label": "Alamat",
+      "value": "Jl. Pendidikan No. 123, Kecamatan Menteng, Jakarta Pusat 10310",
+      "icon": "location"
+    },
+    "phone": {
+      "label": "Telepon",
+      "value": "(021) 1234-5678",
+      "href": "tel:+62211234567",
+      "icon": "phone"
+    },
+    "email": {
+      "label": "Email",
+      "value": "info@greenwoodacademy.sch.id",
+      "href": "mailto:info@greenwoodacademy.sch.id",
+      "icon": "email"
+    },
+    "whatsapp": {
+      "label": "WhatsApp",
+      "value": "+62 812-3456-7890",
+      "href": "https://wa.me/6281234567890",
+      "icon": "whatsapp"
+    }
+  },
+  "officeHours": {
+    "title": "Jam Operasional",
+    "hours": [
+      { "days": "Senin - Jumat", "time": "07:00 - 16:00 WIB" },
+      { "days": "Sabtu", "time": "08:00 - 12:00 WIB" },
+      { "days": "Minggu & Hari Libur", "time": "Tutup" }
+    ]
+  },
+  "form": {
+    "title": "Kirim Pesan",
+    "fields": {
+      "name": { "label": "Nama Lengkap", "placeholder": "Masukkan nama lengkap Anda" },
+      "email": { "label": "Email", "placeholder": "Masukkan alamat email Anda" },
+      "phone": { "label": "No. Telepon", "placeholder": "Masukkan nomor telepon Anda" },
+      "subject": { "label": "Subjek", "placeholder": "Pilih subjek" },
+      "message": { "label": "Pesan", "placeholder": "Tulis pesan Anda di sini..." }
+    },
+    "subjectOptions": [
+      "Informasi Pendaftaran",
+      "Jadwal Kunjungan",
+      "Biaya Pendidikan",
+      "Program Akademik",
+      "Lainnya"
+    ],
+    "submitText": "Kirim Pesan"
+  },
+  "socialMedia": {
+    "title": "Ikuti Kami",
+    "links": [
+      { "id": "facebook", "label": "Facebook", "href": "https://facebook.com/greenwoodacademy", "icon": "facebook" },
+      { "id": "instagram", "label": "Instagram", "href": "https://instagram.com/greenwoodacademy", "icon": "instagram" },
+      { "id": "youtube", "label": "YouTube", "href": "https://youtube.com/greenwoodacademy", "icon": "youtube" },
+      { "id": "linkedin", "label": "LinkedIn", "href": "https://linkedin.com/company/greenwoodacademy", "icon": "linkedin" }
+    ]
+  },
+  "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613!3d-6.2087634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x6b45e67356080477!2sJakarta%2C%20Indonesia!5e0!3m2!1sen!2sus!4v1699999999999!5m2!1sen!2sus"
+}
