@@ -1,13 +1,13 @@
 {
   "schoolName": "Greenwood Academy",
-  "tagline": "Nurturing Minds, Building Futures — Where Every Student Discovers Their Potential",
+  "tagline": "Membentuk Generasi Unggul, Membangun Masa Depan — Tempat Setiap Siswa Menemukan Potensi Terbaiknya",
   "backgroundImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1920&q=80",
   "primaryCta": {
-    "text": "Apply Now",
+    "text": "Daftar Sekarang",
     "href": "#admissions"
   },
   "secondaryCta": {
-    "text": "Virtual Tour",
+    "text": "Tur Virtual",
     "href": "#tour"
   },
   "scrollTarget": "#about"
