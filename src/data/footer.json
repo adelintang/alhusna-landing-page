@@ -1,0 +1,45 @@
+{
+  "brand": {
+    "name": "Greenwood Academy",
+    "description": "Membentuk generasi unggul dan berkarakter sejak 1995. Kami berkomitmen memberikan pendidikan berkualitas untuk masa depan anak Indonesia."
+  },
+  "quickLinks": {
+    "title": "Tautan Cepat",
+    "links": [
+      { "id": "about", "label": "Tentang Kami", "href": "#about" },
+      { "id": "programs", "label": "Program Akademik", "href": "#programs" },
+      { "id": "facilities", "label": "Fasilitas", "href": "#facilities" },
+      { "id": "admissions", "label": "Pendaftaran", "href": "#admissions" },
+      { "id": "contact", "label": "Hubungi Kami", "href": "#contact" }
+    ]
+  },
+  "programs": {
+    "title": "Program Kami",
+    "links": [
+      { "id": "paud", "label": "PAUD & TK", "href": "#programs" },
+      { "id": "sd", "label": "Sekolah Dasar", "href": "#programs" },
+      { "id": "smp", "label": "SMP", "href": "#programs" },
+      { "id": "sma", "label": "SMA", "href": "#programs" },
+      { "id": "extracurricular", "label": "Ekstrakurikuler", "href": "#programs" }
+    ]
+  },
+  "contact": {
+    "title": "Kontak",
+    "address": "Jl. Pendidikan No. 123, Menteng, Jakarta Pusat 10310",
+    "phone": "(021) 1234-5678",
+    "email": "info@greenwoodacademy.sch.id",
+    "phoneHref": "tel:+62211234567",
+    "emailHref": "mailto:info@greenwoodacademy.sch.id"
+  },
+  "socialMedia": [
+    { "id": "facebook", "label": "Facebook", "href": "https://facebook.com/greenwoodacademy", "icon": "facebook" },
+    { "id": "instagram", "label": "Instagram", "href": "https://instagram.com/greenwoodacademy", "icon": "instagram" },
+    { "id": "youtube", "label": "YouTube", "href": "https://youtube.com/greenwoodacademy", "icon": "youtube" },
+    { "id": "linkedin", "label": "LinkedIn", "href": "https://linkedin.com/company/greenwoodacademy", "icon": "linkedin" }
+  ],
+  "copyright": "© 2025 Greenwood Academy. Hak Cipta Dilindungi.",
+  "bottomLinks": [
+    { "id": "privacy", "label": "Kebijakan Privasi", "href": "#" },
+    { "id": "terms", "label": "Syarat & Ketentuan", "href": "#" }
+  ]
+}

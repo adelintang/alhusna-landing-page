@@ -4,6 +4,7 @@ import { AboutSection } from "./components/sections/AboutSection";
 import { ProgramsSection } from "./components/sections/ProgramsSection";
 import { FacilitiesSection } from "./components/sections/FacilitiesSection";
 import { ContactSection } from "./components/sections/ContactSection";
+import { Footer } from "./components/layout/Footer";
 
 export const App = (): React.ReactElement => {
   return (
@@ -16,6 +17,7 @@ export const App = (): React.ReactElement => {
         <FacilitiesSection />
         <ContactSection />
       </main>
+      <Footer />
     </>
   );
 };
