@@ -132,7 +132,7 @@ export const AboutSection = ({
               className="w-full h-64 sm:h-80 lg:h-full object-cover rounded-2xl shadow-lg"
               loading="lazy"
             />
-            <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-midnight/20 to-transparent" />
+            <div className="absolute inset-0 rounded-2xl bg-linear-to-t from-midnight/20 to-transparent" />
           </div>
 
           {/* Description + Vision & Mission */}
@@ -201,7 +201,7 @@ export const AboutSection = ({
                     className="font-sans text-gray-600 flex items-start"
                   >
                     <svg
-                      className="w-5 h-5 text-primary mr-2 mt-0.5 flex-shrink-0"
+                      className="w-5 h-5 text-primary mr-2 mt-0.5 shrink-0"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"

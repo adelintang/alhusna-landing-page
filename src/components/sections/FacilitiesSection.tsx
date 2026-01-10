@@ -20,7 +20,7 @@ const FacilityCard = ({ facility }: FacilityCardProps): React.ReactElement => {
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-midnight/60 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-t from-midnight/60 via-transparent to-transparent" />
 
         {/* Features badges on image */}
         <div className="absolute bottom-3 left-3 right-3 flex flex-wrap gap-2">
