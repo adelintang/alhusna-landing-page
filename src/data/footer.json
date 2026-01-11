@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "Greenwood Academy",
+    "name": "Alhusna Academy",
     "description": "Membentuk generasi unggul dan berkarakter sejak 1995. Kami berkomitmen memberikan pendidikan berkualitas untuk masa depan anak Indonesia."
   },
   "quickLinks": {
@@ -18,9 +18,11 @@
     "links": [
       { "id": "paud", "label": "PAUD & TK", "href": "#programs" },
       { "id": "sd", "label": "Sekolah Dasar", "href": "#programs" },
-      { "id": "smp", "label": "SMP", "href": "#programs" },
-      { "id": "sma", "label": "SMA", "href": "#programs" },
-      { "id": "extracurricular", "label": "Ekstrakurikuler", "href": "#programs" }
+      {
+        "id": "extracurricular",
+        "label": "Ekstrakurikuler",
+        "href": "#programs"
+      }
     ]
   },
   "contact": {
@@ -32,12 +34,32 @@
     "emailHref": "mailto:info@greenwoodacademy.sch.id"
   },
   "socialMedia": [
-    { "id": "facebook", "label": "Facebook", "href": "https://facebook.com/greenwoodacademy", "icon": "facebook" },
-    { "id": "instagram", "label": "Instagram", "href": "https://instagram.com/greenwoodacademy", "icon": "instagram" },
-    { "id": "youtube", "label": "YouTube", "href": "https://youtube.com/greenwoodacademy", "icon": "youtube" },
-    { "id": "linkedin", "label": "LinkedIn", "href": "https://linkedin.com/company/greenwoodacademy", "icon": "linkedin" }
+    {
+      "id": "facebook",
+      "label": "Facebook",
+      "href": "https://facebook.com/greenwoodacademy",
+      "icon": "facebook"
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "href": "https://instagram.com/greenwoodacademy",
+      "icon": "instagram"
+    },
+    {
+      "id": "youtube",
+      "label": "YouTube",
+      "href": "https://youtube.com/greenwoodacademy",
+      "icon": "youtube"
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "href": "https://linkedin.com/company/greenwoodacademy",
+      "icon": "linkedin"
+    }
   ],
-  "copyright": "© 2025 Greenwood Academy. Hak Cipta Dilindungi.",
+  "copyright": "© 2025 Alhusna Academy. Hak Cipta Dilindungi.",
   "bottomLinks": [
     { "id": "privacy", "label": "Kebijakan Privasi", "href": "#" },
     { "id": "terms", "label": "Syarat & Ketentuan", "href": "#" }
