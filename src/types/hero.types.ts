@@ -8,7 +8,6 @@ export interface HeroData {
   tagline: string;
   backgroundImage: string;
   primaryCta: CtaButton;
-  secondaryCta: CtaButton;
   scrollTarget: string;
 }
 

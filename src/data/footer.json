@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "Alhusna Academy",
+    "name": "Sekolah Alhusna",
     "description": "Membentuk generasi unggul dan berkarakter sejak 1995. Kami berkomitmen memberikan pendidikan berkualitas untuk masa depan anak Indonesia."
   },
   "quickLinks": {
@@ -16,7 +16,7 @@
   "programs": {
     "title": "Program Kami",
     "links": [
-      { "id": "paud", "label": "PAUD & TK", "href": "#programs" },
+      { "id": "paud", "label": "TK", "href": "#programs" },
       { "id": "sd", "label": "Sekolah Dasar", "href": "#programs" },
       {
         "id": "extracurricular",

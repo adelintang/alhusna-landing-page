@@ -7,7 +7,7 @@
       "title": "Pendidikan Anak Usia Dini",
       "description": "Lingkungan yang penuh kasih untuk usia 3-6 tahun yang membangun keterampilan dasar melalui pembelajaran berbasis bermain dan eksplorasi kreatif.",
       "icon": "child",
-      "grades": "PAUD - TK",
+      "grades": "TK",
       "highlights": [
         "Belajar sambil bermain",
         "Pengembangan sosial",
@@ -31,5 +31,5 @@
       "highlights": ["Seni rupa", "Orkestra", "Drama"]
     }
   ],
-  "ctaText": "Lihat Semua Program"
+  "ctaText": "Daftar Sekarang"
 }
