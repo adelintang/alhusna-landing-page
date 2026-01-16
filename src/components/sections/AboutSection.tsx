@@ -131,6 +131,7 @@ export const AboutSection = ({
               alt={imageAlt}
               className="w-full h-64 sm:h-80 lg:h-full object-cover rounded-2xl shadow-lg"
               loading="lazy"
+              decoding="async"
             />
             <div className="absolute inset-0 rounded-2xl bg-linear-to-t from-midnight/20 to-transparent" />
           </div>

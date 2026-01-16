@@ -1,11 +1,36 @@
+import { lazy, Suspense } from "react";
 import { Header } from "./components/layout/Header";
 import { HeroSection } from "./components/sections/HeroSection";
-import { AboutSection } from "./components/sections/AboutSection";
-import { ProgramsSection } from "./components/sections/ProgramsSection";
-import { FacilitiesSection } from "./components/sections/FacilitiesSection";
-import { AdmissionsSection } from "./components/sections/AdmissionsSection";
-import { ContactSection } from "./components/sections/ContactSection";
-import { Footer } from "./components/layout/Footer";
+
+// Lazy load sections yang tidak terlihat di viewport awal
+const AboutSection = lazy(() =>
+  import("./components/sections/AboutSection").then((m) => ({
+    default: m.AboutSection,
+  }))
+);
+const ProgramsSection = lazy(() =>
+  import("./components/sections/ProgramsSection").then((m) => ({
+    default: m.ProgramsSection,
+  }))
+);
+const FacilitiesSection = lazy(() =>
+  import("./components/sections/FacilitiesSection").then((m) => ({
+    default: m.FacilitiesSection,
+  }))
+);
+const AdmissionsSection = lazy(() =>
+  import("./components/sections/AdmissionsSection").then((m) => ({
+    default: m.AdmissionsSection,
+  }))
+);
+const ContactSection = lazy(() =>
+  import("./components/sections/ContactSection").then((m) => ({
+    default: m.ContactSection,
+  }))
+);
+const Footer = lazy(() =>
+  import("./components/layout/Footer").then((m) => ({ default: m.Footer }))
+);
 
 export const App = (): React.ReactElement => {
   return (
@@ -13,13 +38,23 @@ export const App = (): React.ReactElement => {
       <Header />
       <main className="bg-light min-h-screen">
         <HeroSection />
-        <AboutSection />
-        <ProgramsSection />
-        <FacilitiesSection />
-        <AdmissionsSection />
-        <ContactSection />
+        <Suspense
+          fallback={
+            <div className="min-h-screen flex items-center justify-center">
+              <div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin" />
+            </div>
+          }
+        >
+          <AboutSection />
+          <ProgramsSection />
+          <FacilitiesSection />
+          <AdmissionsSection />
+          <ContactSection />
+        </Suspense>
       </main>
-      <Footer />
+      <Suspense fallback={null}>
+        <Footer />
+      </Suspense>
     </>
   );
 };
