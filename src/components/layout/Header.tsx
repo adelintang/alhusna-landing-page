@@ -149,15 +149,6 @@ export const Header = ({
                 </a>
               </li>
             ))}
-            <li className="px-4 pt-2">
-              <a
-                href={cta.href}
-                onClick={closeMenu}
-                className="block w-full text-center px-5 py-3 text-base font-semibold text-white bg-primary hover:bg-primary/90 rounded-lg transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-primary/50"
-              >
-                {cta.text}
-              </a>
-            </li>
           </ul>
         </div>
       </nav>
