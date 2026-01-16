@@ -1,0 +1,56 @@
+{
+  "sectionTitle": "Pendaftaran Siswa Baru",
+  "sectionSubtitle": "Bergabunglah dengan keluarga besar kami dan wujudkan masa depan gemilang anak Anda",
+  "stepsTitle": "Langkah-Langkah Pendaftaran",
+  "steps": [
+    {
+      "id": 1,
+      "title": "Unduh & Isi Formulir",
+      "description": "Unduh formulir pendaftaran dan lengkapi semua informasi yang diperlukan dengan lengkap dan benar",
+      "icon": "form"
+    },
+    {
+      "id": 2,
+      "title": "Lengkapi Dokumen",
+      "description": "Siapkan dokumen persyaratan seperti fotokopi akta kelahiran, kartu keluarga, dan pas foto terbaru",
+      "icon": "document"
+    },
+    {
+      "id": 3,
+      "title": "Kunjungi Sekolah",
+      "description": "Datang ke sekolah dengan membawa formulir yang telah diisi dan dokumen persyaratan lainnya",
+      "icon": "check"
+    },
+    {
+      "id": 4,
+      "title": "Pembayaran & Konfirmasi",
+      "description": "Lakukan pembayaran biaya pendaftaran dan dapatkan konfirmasi penerimaan siswa baru",
+      "icon": "payment"
+    }
+  ],
+  "documentsTitle": "Dokumen Pendaftaran",
+  "documentsSubtitle": "Unduh dan lengkapi formulir berikut untuk melengkapi proses pendaftaran",
+  "documents": [
+    {
+      "id": 1,
+      "title": "Formulir Pendaftaran Siswa Baru",
+      "description": "Formulir data diri calon siswa dan data orang tua/wali",
+      "fileName": "formulir-pendaftaran.pdf",
+      "fileUrl": "/documents/formulir-pendaftaran.pdf"
+    },
+    {
+      "id": 2,
+      "title": "Formulir Kesehatan Siswa",
+      "description": "Formulir riwayat kesehatan dan kondisi medis siswa",
+      "fileName": "formulir-kesehatan.pdf",
+      "fileUrl": "/documents/formulir-kesehatan.pdf"
+    },
+    {
+      "id": 3,
+      "title": "Surat Pernyataan Orang Tua",
+      "description": "Surat pernyataan kesediaan mengikuti peraturan sekolah",
+      "fileName": "surat-pernyataan.pdf",
+      "fileUrl": "/documents/surat-pernyataan.pdf"
+    }
+  ]
+}
