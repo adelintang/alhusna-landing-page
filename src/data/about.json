@@ -1,53 +1,57 @@
 {
   "sectionTitle": "Tentang Kami",
   "sectionSubtitle": "Mengenal Lebih Dekat Sekolah Alhusna",
-  "description": "Sekolah Alhusna didirikan pada tahun 1995 dengan visi menjadi institusi pendidikan terdepan yang menghasilkan generasi unggul, berkarakter, dan siap menghadapi tantangan global. Selama lebih dari 25 tahun, kami telah mendidik ribuan siswa yang kini sukses di berbagai bidang.",
+  "description": "SD AL HUSNA adalah sekolah dasar yang berkomitmen menghadirkan pendidikan berkualitas yang memadukan kecerdasan akademik dengan pembentukan karakter dan akhlak mulia. Berdiri sejak tahun 2004, SD AL HUSNA terus tumbuh menjadi lembaga pendidikan yang dipercaya masyarakat dalam mendidik generasi muda yang cerdas, beradab, dan berdaya saing.",
+  "subDescription": "Berlokasi di Gembong RT 03 RW 01, Kelurahan Saradan, Kecamatan Karangmalang, Kabupaten Sragen, Provinsi Jawa Tengah, Indonesia. SD AL HUSNA menyediakan lingkungan belajar yang aman, nyaman, dan menyenangkan bagi anak-anak. Dengan dukungan tenaga pendidik yang profesional dan penuh dedikasi, kami mengintegrasikan pembelajaran akademik, nilai spiritual, serta pengembangan karakter, sehingga setiap siswa dapat berkembang secara optimal dan siap menghadapi tantangan masa depan.",
   "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=80",
   "imageAlt": "Suasana belajar di Sekolah Alhusna",
   "vision": {
     "title": "Visi",
-    "content": "Menjadi sekolah unggulan yang menghasilkan lulusan berkarakter, berwawasan global, dan mampu berkontribusi positif bagi masyarakat."
+    "content": "Mewujudkan siswa yang beriman, berilmu, dan berakhlak mulia"
   },
   "mission": {
     "title": "Misi",
     "items": [
-      "Menyelenggarakan pendidikan berkualitas dengan kurikulum yang relevan dan inovatif",
-      "Mengembangkan karakter siswa melalui nilai-nilai integritas, disiplin, dan kepedulian",
-      "Memfasilitasi pengembangan bakat dan minat siswa secara optimal",
-      "Menciptakan lingkungan belajar yang aman, nyaman, dan menyenangkan"
+      "Menanamkan nilai-nilai keimanan dan ketakwaan kepada Allah SWT melalui pembiasaan ibadah dan sikap religius dalam keseharian di sekolah.",
+      "Melaksanaan pembelajaran dan bimbingan seara efetif sehingga siswa dapat berembang seara optimal sesuai dengan potensi yang dimiliki.",
+      "Membangun karakter warga sekolah sebagai warga negara yang cinta tanah air, menghargai perbedaan, dan menjunjung nilai-nilai Pancasila.",
+      "Mendorong peserta didik untuk berpikir kritis dan logis dalam memecahkan masalah secara mandiri dan bertanggung jawab.",
+      "Mewujudkan lingkungan belajar yang kolaboratif antara peserta didik, guru, dan orang tua.",
+      "Menumbuhkan sikap kemandirian dalam belajar dan kehidupan sehari-hari melalui kegiatan intrakurikuler dan ekstrakurikuler.",
+      "Melatih kemampuan berkomunikasi secara santun, aktif, dan efektif dalam berbagai situasi."
     ]
   },
   "stats": [
-    { "id": "years", "value": "25+", "label": "Tahun Pengalaman" },
-    { "id": "students", "value": "5000+", "label": "Alumni Sukses" },
+    { "id": "years", "value": "2004", "label": "Tahun Berdiri" },
+    { "id": "students", "value": "5000+", "label": "Lulusan" },
     { "id": "teachers", "value": "150+", "label": "Guru Berkualitas" },
     { "id": "ratio", "value": "1:15", "label": "Rasio Guru-Siswa" }
   ],
   "valuesTitle": "Nilai-Nilai Kami",
   "values": [
     {
-      "id": "integrity",
+      "id": "honest",
       "icon": "shield",
-      "title": "Integritas",
-      "description": "Menjunjung tinggi kejujuran dan etika dalam setiap tindakan"
+      "title": "Jujur",
+      "description": "Berkata dan bertindak sesuai dengan kebenaran."
     },
     {
-      "id": "excellence",
+      "id": "discipline",
       "icon": "star",
-      "title": "Keunggulan",
-      "description": "Berkomitmen untuk mencapai standar tertinggi dalam pendidikan"
+      "title": "Disiplin",
+      "description": "Tertib dan patuh pada aturan"
     },
     {
-      "id": "innovation",
-      "icon": "lightbulb",
-      "title": "Inovasi",
-      "description": "Terus berinovasi dalam metode pembelajaran dan teknologi"
-    },
-    {
-      "id": "care",
+      "id": "polite",
       "icon": "heart",
-      "title": "Kepedulian",
-      "description": "Menciptakan komunitas yang saling mendukung dan peduli"
+      "title": "Santun",
+      "description": "Berperilaku sopan dan menghormati orang lain."
+    },
+    {
+      "id": "diligent",
+      "icon": "lightbulb",
+      "title": "Rajin",
+      "description": "Semangat belajar dan tidak mudah menyerah."
     }
   ]
 }

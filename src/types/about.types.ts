@@ -27,6 +27,7 @@ export interface AboutData {
   sectionTitle: string;
   sectionSubtitle: string;
   description: string;
+  subDescription: string;
   image: string;
   imageAlt: string;
   vision: VisionData;

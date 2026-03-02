@@ -93,6 +93,7 @@ export const AboutSection = ({
     sectionTitle,
     sectionSubtitle,
     description,
+    subDescription,
     image,
     imageAlt,
     vision,
@@ -122,7 +123,17 @@ export const AboutSection = ({
           </p>
         </header>
 
-        {/* Main Content: Image + Description */}
+        {/* Description */}
+        <div className="mb-10 sm:mb-12 max-w-4xl mx-auto text-center">
+          <p className="font-sans text-gray-600 text-base sm:text-lg leading-relaxed mb-4">
+            {description}
+          </p>
+          <p className="font-sans text-gray-500 text-sm sm:text-base leading-relaxed">
+            {subDescription}
+          </p>
+        </div>
+
+        {/* Image + Vision & Mission */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mb-16">
           {/* Image */}
           <div className="relative">
@@ -136,12 +147,8 @@ export const AboutSection = ({
             <div className="absolute inset-0 rounded-2xl bg-linear-to-t from-midnight/20 to-transparent" />
           </div>
 
-          {/* Description + Vision & Mission */}
+          {/* Vision & Mission */}
           <div className="flex flex-col justify-center">
-            <p className="font-sans text-gray-600 text-base sm:text-lg leading-relaxed mb-8">
-              {description}
-            </p>
-
             {/* Vision */}
             <div className="mb-6">
               <h3 className="font-sans text-xl font-bold text-midnight mb-2 flex items-center">
