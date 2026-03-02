@@ -1,35 +1,83 @@
 {
   "sectionTitle": "Program Akademik",
   "sectionSubtitle": "Temukan kurikulum komprehensif kami yang dirancang untuk mengembangkan potensi setiap siswa",
-  "programs": [
-    {
-      "id": "early-childhood",
-      "title": "Pendidikan Anak Usia Dini",
-      "description": "Lingkungan yang penuh kasih untuk usia 3-6 tahun yang membangun keterampilan dasar melalui pembelajaran berbasis bermain dan eksplorasi kreatif.",
-      "icon": "child",
-      "grades": "TK",
-      "highlights": [
-        "Belajar sambil bermain",
-        "Pengembangan sosial",
-        "Literasi dini"
-      ]
-    },
-    {
-      "id": "elementary",
-      "title": "Sekolah Dasar",
-      "description": "Membangun fondasi akademik yang kuat dalam membaca, menulis, matematika, dan sains sambil menumbuhkan rasa ingin tahu dan kreativitas.",
-      "icon": "book",
-      "grades": "Kelas 1 - 6",
-      "highlights": ["Akademik inti", "Integrasi seni", "Pendidikan karakter"]
-    },
-    {
-      "id": "arts",
-      "title": "Seni & Musik",
-      "description": "Program seni visual dan pertunjukan yang komprehensif untuk mendorong ekspresi kreatif dan keunggulan artistik.",
-      "icon": "music",
-      "grades": "Semua Jenjang",
-      "highlights": ["Seni rupa", "Orkestra", "Drama"]
-    }
-  ],
+  "educationLevel": {
+    "title": "Jenjang Pendidikan",
+    "educationLevels": [
+      {
+        "id": "early-childhood",
+        "title": "Pendidikan Anak Usia Dini",
+        "description": "Lingkungan yang penuh kasih untuk usia 3-6 tahun yang membangun keterampilan dasar melalui pembelajaran berbasis bermain dan eksplorasi kreatif.",
+        "icon": "child",
+        "grades": "TK",
+        "highlights": [
+          "Belajar sambil bermain",
+          "Pengembangan sosial",
+          "Literasi dini"
+        ]
+      },
+      {
+        "id": "elementary",
+        "title": "Sekolah Dasar",
+        "description": "Membangun fondasi akademik yang kuat dalam membaca, menulis, matematika, dan sains sambil menumbuhkan rasa ingin tahu dan kreativitas.",
+        "icon": "book",
+        "grades": "Kelas 1 - 6",
+        "highlights": ["Akademik inti", "Integrasi seni", "Pendidikan karakter"]
+      }
+    ]
+  },
+  "flagshipProgram": {
+    "title": "Program Unggulan",
+    "flagshipPrograms": [
+      {
+        "id": "keteladanan",
+        "title": "Keteladanan",
+        "description": "Kegiatan ini bertujuan untuk memberi keteladanan pada peserta didik melalui pembinaan pakaian seragam, kedisiplinan, penanaman nilai akhlak Islami, budaya minat membaca, dan budaya bersih diri.",
+        "icon": "academic",
+        "highlights": [
+          "Pembinaan pakaian seragam",
+          "Budaya membaca",
+          "Akhlak Islami",
+          "Lingkungan bersih"
+        ]
+      },
+      {
+        "id": "terprogram",
+        "title": "Terprogram",
+        "description": "Proses pembentukan akhlak dan kebiasaan pada peserta didik melalui kegiatan yang dilaksanakan di sekolah secara terprogram dalam kurun waktu tertentu.",
+        "icon": "graduation",
+        "highlights": [
+          "7 Kebiasaan Anak Indonesia Hebat",
+          "Sekolah Ramah Anak",
+          "Kemitraan",
+          "Makan bergizi gratis"
+        ]
+      },
+      {
+        "id": "rutin",
+        "title": "Rutin",
+        "description": "Proses pembentukan akhlak dan kebiasaan pada peserta didik melalui kegiatan rutin yang dilaksanakan di sekolah, termasuk kegiatan ibadah dan penguatan nilai-nilai keagamaan.",
+        "icon": "book",
+        "highlights": [
+          "Shalat berjamaah",
+          "Shalat Dhuha",
+          "Jumat berkah",
+          "Membaca Alkitab"
+        ]
+      },
+      {
+        "id": "nasionalisme-patriotisme",
+        "title": "Nasionalisme dan Patriotisme",
+        "description": "Kegiatan untuk menanamkan jiwa nasionalisme dan cinta terhadap tanah air melalui berbagai perayaan dan upacara nasional.",
+        "icon": "academic",
+        "highlights": [
+          "Upacara Bendera",
+          "Peringatan HUT Kemerdekaan",
+          "Hari Pendidikan Nasional",
+          "Hari-hari besar nasional"
+        ]
+      }
+    ]
+  },
   "ctaText": "Daftar Sekarang"
 }

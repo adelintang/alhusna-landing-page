@@ -1,8 +1,11 @@
 import type {
   ProgramsSectionProps,
   ProgramCardProps,
+  FlagshipProgramCardProps,
   ProgramIconType,
   ProgramsData,
+  EducationLevelItem,
+  FlagshipProgram,
 } from "../../types/program.types";
 import programsDataJson from "../../data/programs.json";
 
@@ -120,28 +123,80 @@ const ProgramIcon = ({
 };
 
 const ProgramCard = ({ program }: ProgramCardProps): React.ReactElement => {
-  const { title, description, icon, grades, highlights } = program;
+  const { title, description, icon, grades, highlights } =
+    program as EducationLevelItem;
 
   return (
-    <article className="group bg-surface rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-primary/20">
+    <article className="group bg-surface rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-primary/20 flex flex-col h-full">
       {/* Icon */}
-      <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+      <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors shrink-0">
         <ProgramIcon icon={icon as ProgramIconType} className="text-primary" />
       </div>
 
-      {/* Title & Grades */}
-      <h3 className="font-sans text-xl font-bold text-midnight mb-1">
-        {title}
-      </h3>
-      <p className="text-sm text-primary font-medium mb-3">{grades}</p>
+      {/* Content Container */}
+      <div className="flex-1 flex flex-col">
+        {/* Title & Grades */}
+        <div className="mb-3">
+          <h3 className="font-sans text-xl font-bold text-midnight mb-1">
+            {title}
+          </h3>
+          <p className="text-sm text-primary font-medium">{grades}</p>
+        </div>
 
-      {/* Description */}
-      <p className="font-sans text-gray-600 text-sm leading-relaxed mb-4">
-        {description}
-      </p>
+        {/* Description */}
+        <p className="font-sans text-gray-600 text-sm leading-relaxed flex-1 mb-4">
+          {description}
+        </p>
+      </div>
 
       {/* Highlights */}
-      <ul className="flex flex-wrap gap-2" aria-label={`${title} highlights`}>
+      <ul
+        className="flex flex-wrap gap-2 mt-auto"
+        aria-label={`${title} highlights`}
+      >
+        {highlights.map((highlight) => (
+          <li
+            key={highlight}
+            className="text-xs font-medium text-midnight/70 bg-light px-3 py-1 rounded-full"
+          >
+            {highlight}
+          </li>
+        ))}
+      </ul>
+    </article>
+  );
+};
+
+const FlagshipProgramCard = ({
+  program,
+}: FlagshipProgramCardProps): React.ReactElement => {
+  const { title, description, icon, highlights } = program as FlagshipProgram;
+
+  return (
+    <article className="group bg-surface rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-primary/20 flex flex-col h-full">
+      {/* Icon */}
+      <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors shrink-0">
+        <ProgramIcon icon={icon as ProgramIconType} className="text-primary" />
+      </div>
+
+      {/* Content Container */}
+      <div className="flex-1 flex flex-col">
+        {/* Title */}
+        <h3 className="font-sans text-xl font-bold text-midnight mb-3">
+          {title}
+        </h3>
+
+        {/* Description */}
+        <p className="font-sans text-gray-600 text-sm leading-relaxed flex-1 mb-4">
+          {description}
+        </p>
+      </div>
+
+      {/* Highlights */}
+      <ul
+        className="flex flex-wrap gap-2 mt-auto"
+        aria-label={`${title} highlights`}
+      >
         {highlights.map((highlight) => (
           <li
             key={highlight}
@@ -158,7 +213,15 @@ const ProgramCard = ({ program }: ProgramCardProps): React.ReactElement => {
 export const ProgramsSection = ({
   data = programsData,
 }: ProgramsSectionProps): React.ReactElement => {
-  const { sectionTitle, sectionSubtitle, programs, ctaText } = data;
+  const {
+    sectionTitle,
+    sectionSubtitle,
+    educationLevel,
+    flagshipProgram,
+    ctaText,
+  } = data;
+  const { title: educationLevelTitle, educationLevels } = educationLevel;
+  const { title: flagshipTitle, flagshipPrograms } = flagshipProgram;
 
   return (
     <section
@@ -180,12 +243,38 @@ export const ProgramsSection = ({
           </p>
         </header>
 
+        {/* Education Level Group Header */}
+        <div className="mb-12 text-center">
+          <h3 className="font-sans text-2xl sm:text-3xl font-bold text-midnight">
+            {educationLevelTitle}
+          </h3>
+        </div>
+
         {/* Programs Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-          {programs.map((program) => (
+          {educationLevels.map((program) => (
             <ProgramCard key={program.id} program={program} />
           ))}
         </div>
+
+        {/* Flagship Program Section */}
+        {flagshipPrograms && flagshipPrograms.length > 0 && (
+          <>
+            {/* Flagship Program Group Header */}
+            <div className="mb-12 mt-16 sm:mt-20 lg:mt-24 text-center">
+              <h3 className="font-sans text-2xl sm:text-3xl font-bold text-midnight">
+                {flagshipTitle}
+              </h3>
+            </div>
+
+            {/* Flagship Programs Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+              {flagshipPrograms.map((program) => (
+                <FlagshipProgramCard key={program.id} program={program} />
+              ))}
+            </div>
+          </>
+        )}
 
         {/* CTA */}
         <div className="text-center mt-12 sm:mt-16">

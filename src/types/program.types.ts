@@ -6,7 +6,7 @@ export type ProgramIconType =
   | "beaker"
   | "music";
 
-export interface Program {
+export interface EducationLevelItem {
   id: string;
   title: string;
   description: string;
@@ -15,10 +15,29 @@ export interface Program {
   highlights: string[];
 }
 
+export interface EducationLevelGroup {
+  title: string;
+  educationLevels: EducationLevelItem[];
+}
+
+export interface FlagshipProgram {
+  id: string;
+  title: string;
+  description: string;
+  icon: ProgramIconType;
+  highlights: string[];
+}
+
+export interface FlagshipProgramGroup {
+  title: string;
+  flagshipPrograms: FlagshipProgram[];
+}
+
 export interface ProgramsData {
   sectionTitle: string;
   sectionSubtitle: string;
-  programs: Program[];
+  educationLevel: EducationLevelGroup;
+  flagshipProgram: FlagshipProgramGroup;
   ctaText: string;
 }
 
@@ -27,5 +46,9 @@ export interface ProgramsSectionProps {
 }
 
 export interface ProgramCardProps {
-  program: Program;
+  program: EducationLevelItem;
+}
+
+export interface FlagshipProgramCardProps {
+  program: FlagshipProgram;
 }
