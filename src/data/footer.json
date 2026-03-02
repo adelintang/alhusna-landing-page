@@ -17,20 +17,15 @@
     "title": "Program Kami",
     "links": [
       { "id": "paud", "label": "TK", "href": "#programs" },
-      { "id": "sd", "label": "Sekolah Dasar", "href": "#programs" },
-      {
-        "id": "extracurricular",
-        "label": "Ekstrakurikuler",
-        "href": "#programs"
-      }
+      { "id": "sd", "label": "Sekolah Dasar", "href": "#programs" }
     ]
   },
   "contact": {
     "title": "Kontak",
-    "address": "Jl. Pendidikan No. 123, Menteng, Jakarta Pusat 10310",
-    "phone": "(021) 1234-5678",
+    "address": "Gembong RT 03 RW 01, Kelurahan Saradan, Kec. Karangmalang, Kabupaten Sragen, Jawa Tengah 57222",
+    "phone": "WhatsApp +62 8510 600 7620",
     "email": "info@greenwoodacademy.sch.id",
-    "phoneHref": "tel:+62211234567",
+    "phoneHref": "https://wa.me/6285106007620",
     "emailHref": "mailto:info@greenwoodacademy.sch.id"
   },
   "socialMedia": [
@@ -43,7 +38,7 @@
     {
       "id": "instagram",
       "label": "Instagram",
-      "href": "https://instagram.com/greenwoodacademy",
+      "href": "https://instagram.com/sdalhusnaofficial",
       "icon": "instagram"
     },
     {
