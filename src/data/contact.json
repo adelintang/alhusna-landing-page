@@ -4,7 +4,7 @@
   "contactInfo": {
     "address": {
       "label": "Alamat",
-      "value": "Jl. Pendidikan No. 123, Kecamatan Menteng, Jakarta Pusat 10310",
+      "value": "Gembong RT 03 RW 01, Kelurahan Saradan, Kec. Karangmalang, Kabupaten Sragen, Jawa Tengah 57222",
       "icon": "location"
     },
     "phone": {
@@ -13,35 +13,47 @@
       "href": "tel:+62211234567",
       "icon": "phone"
     },
+    "whatsapp": {
+      "label": "WhatsApp",
+      "value": "+6285106007620",
+      "href": "https://wa.me/6285106007620",
+      "icon": "whatsapp"
+    },
     "email": {
       "label": "Email",
       "value": "info@greenwoodacademy.sch.id",
       "href": "mailto:info@greenwoodacademy.sch.id",
       "icon": "email"
-    },
-    "whatsapp": {
-      "label": "WhatsApp",
-      "value": "+62 812-3456-7890",
-      "href": "https://wa.me/6281234567890",
-      "icon": "whatsapp"
     }
   },
   "officeHours": {
     "title": "Jam Operasional",
     "hours": [
-      { "days": "Senin - Jumat", "time": "07:00 - 16:00 WIB" },
-      { "days": "Sabtu", "time": "08:00 - 12:00 WIB" },
+      { "days": "Senin - Kamis", "time": "07:00 - 13:00 WIB" },
+      { "days": "Jumat - Sabtu", "time": " 07:00 – 10:00 WIB" },
       { "days": "Minggu & Hari Libur", "time": "Tutup" }
     ]
   },
   "form": {
     "title": "Kirim Pesan",
     "fields": {
-      "name": { "label": "Nama Lengkap", "placeholder": "Masukkan nama lengkap Anda" },
-      "email": { "label": "Email", "placeholder": "Masukkan alamat email Anda" },
-      "phone": { "label": "No. Telepon", "placeholder": "Masukkan nomor telepon Anda" },
+      "name": {
+        "label": "Nama Lengkap",
+        "placeholder": "Masukkan nama lengkap Anda"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Masukkan alamat email Anda"
+      },
+      "phone": {
+        "label": "No. Telepon",
+        "placeholder": "Masukkan nomor telepon Anda"
+      },
       "subject": { "label": "Subjek", "placeholder": "Pilih subjek" },
-      "message": { "label": "Pesan", "placeholder": "Tulis pesan Anda di sini..." }
+      "message": {
+        "label": "Pesan",
+        "placeholder": "Tulis pesan Anda di sini..."
+      }
     },
     "subjectOptions": [
       "Informasi Pendaftaran",
@@ -55,11 +67,31 @@
   "socialMedia": {
     "title": "Ikuti Kami",
     "links": [
-      { "id": "facebook", "label": "Facebook", "href": "https://facebook.com/greenwoodacademy", "icon": "facebook" },
-      { "id": "instagram", "label": "Instagram", "href": "https://instagram.com/greenwoodacademy", "icon": "instagram" },
-      { "id": "youtube", "label": "YouTube", "href": "https://youtube.com/greenwoodacademy", "icon": "youtube" },
-      { "id": "linkedin", "label": "LinkedIn", "href": "https://linkedin.com/company/greenwoodacademy", "icon": "linkedin" }
+      {
+        "id": "facebook",
+        "label": "Facebook",
+        "href": "https://facebook.com/greenwoodacademy",
+        "icon": "facebook"
+      },
+      {
+        "id": "instagram",
+        "label": "Instagram",
+        "href": "https://instagram.com/sdalhusnaofficial",
+        "icon": "instagram"
+      },
+      {
+        "id": "youtube",
+        "label": "YouTube",
+        "href": "https://youtube.com/greenwoodacademy",
+        "icon": "youtube"
+      },
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/company/greenwoodacademy",
+        "icon": "linkedin"
+      }
     ]
   },
-  "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613!3d-6.2087634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x6b45e67356080477!2sJakarta%2C%20Indonesia!5e0!3m2!1sen!2sus!4v1699999999999!5m2!1sen!2sus"
+  "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1977.9807118513422!2d110.9933737!3d-7.4695121!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a1b7cefdb42a7%3A0x4a9b06568b0fc0bd!2sTK%20Al%20Husna%20Gembong!5e0!3m2!1sid!2sid!4v1772471247098!5m2!1sid!2sid"
 }

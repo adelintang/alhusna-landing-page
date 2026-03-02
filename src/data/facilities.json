@@ -3,6 +3,28 @@
   "sectionSubtitle": "Lingkungan belajar modern yang mendukung perkembangan optimal siswa",
   "facilities": [
     {
+      "id": "interactive-flat-panel",
+      "title": "Interactive Flat Panel",
+      "description": "Papan tulis digital canggih dengan layar sentuh interaktif berukuran besar untuk meningkatkan pengalaman belajar. Mendukung presentasi, video pembelajaran, permainan edukatif, dan kuis interaktif. Dapat terhubung dengan berbagai perangkat melalui Wi-Fi dan Bluetooth untuk pembelajaran yang lebih kolaboratif dan menyenangkan.",
+      "image": "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=800&q=80",
+      "features": [
+        "Layar Sentuh Multi-touch",
+        "Resolusi Tinggi",
+        "Konektivitas Wireless"
+      ]
+    },
+    {
+      "id": "prayer-room",
+      "title": "Mushola",
+      "description": "Fasilitas ibadah yang dirancang untuk mendukung pembentukan karakter dan spiritual siswa. Dilengkapi dengan sajadah, mukena, sarung, Al-Qur'an, dan tempat wudhu yang memadai. Lingkungan yang bersih, nyaman, dan tenang menjadikan mushola sebagai sarana pembentukan nilai disiplin, tanggung jawab, dan akhlak mulia.",
+      "image": "https://images.unsplash.com/photo-1768152860286-15fa04f4b1a1?auto=format&fit=crop&w=800&q=80",
+      "features": [
+        "Ruang Ibadah Khusus",
+        "Fasilitas Wudhu",
+        "Al-Qur'an & Perlengkapan"
+      ]
+    },
+    {
       "id": "classroom",
       "title": "Ruang Kelas Modern",
       "description": "Ruang kelas ber-AC dengan smart board interaktif, proyektor HD, dan furniture ergonomis untuk kenyamanan belajar.",
