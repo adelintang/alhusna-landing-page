@@ -1,7 +1,7 @@
 {
   "brand": {
-    "name": "Sekolah Alhusna",
-    "description": "Membentuk generasi unggul dan berkarakter sejak 1995. Kami berkomitmen memberikan pendidikan berkualitas untuk masa depan anak Indonesia."
+    "name": "TK & SD Alhusna Sragen",
+    "description": "Membentuk generasi unggul dan berkarakter sejak 2004. Kami berkomitmen memberikan pendidikan berkualitas untuk masa depan anak Indonesia."
   },
   "quickLinks": {
     "title": "Tautan Cepat",
@@ -24,37 +24,19 @@
     "title": "Kontak",
     "address": "Gembong RT 03 RW 01, Kelurahan Saradan, Kec. Karangmalang, Kabupaten Sragen, Jawa Tengah 57222",
     "phone": "WhatsApp +62 8510 600 7620",
-    "email": "info@greenwoodacademy.sch.id",
+    "email": "sdalhusna00@gmail.com",
     "phoneHref": "https://wa.me/6285106007620",
-    "emailHref": "mailto:info@greenwoodacademy.sch.id"
+    "emailHref": "https://mail.google.com/mail/?view=cm&to=sdalhusna00@gmail.com"
   },
   "socialMedia": [
-    {
-      "id": "facebook",
-      "label": "Facebook",
-      "href": "https://facebook.com/greenwoodacademy",
-      "icon": "facebook"
-    },
     {
       "id": "instagram",
       "label": "Instagram",
       "href": "https://instagram.com/sdalhusnaofficial",
       "icon": "instagram"
-    },
-    {
-      "id": "youtube",
-      "label": "YouTube",
-      "href": "https://youtube.com/greenwoodacademy",
-      "icon": "youtube"
-    },
-    {
-      "id": "linkedin",
-      "label": "LinkedIn",
-      "href": "https://linkedin.com/company/greenwoodacademy",
-      "icon": "linkedin"
     }
   ],
-  "copyright": "© 2025 Sekolah Alhusna. Hak Cipta Dilindungi.",
+  "copyright": "© 2026 TK & SD Alhusna Sragen. Hak Cipta Dilindungi.",
   "bottomLinks": [
     { "id": "privacy", "label": "Kebijakan Privasi", "href": "#" },
     { "id": "terms", "label": "Syarat & Ketentuan", "href": "#" }

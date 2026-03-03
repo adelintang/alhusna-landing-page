@@ -1,4 +1,4 @@
-export type SocialIconType = "facebook" | "instagram" | "youtube" | "linkedin";
+export type SocialIconType = "instagram";
 
 export interface FooterBrand {
   name: string;
