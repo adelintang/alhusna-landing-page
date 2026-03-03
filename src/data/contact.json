@@ -7,12 +7,6 @@
       "value": "Gembong RT 03 RW 01, Kelurahan Saradan, Kec. Karangmalang, Kabupaten Sragen, Jawa Tengah 57222",
       "icon": "location"
     },
-    "phone": {
-      "label": "Telepon",
-      "value": "(021) 1234-5678",
-      "href": "tel:+62211234567",
-      "icon": "phone"
-    },
     "whatsapp": {
       "label": "WhatsApp",
       "value": "+6285106007620",
@@ -21,8 +15,8 @@
     },
     "email": {
       "label": "Email",
-      "value": "info@greenwoodacademy.sch.id",
-      "href": "mailto:info@greenwoodacademy.sch.id",
+      "value": "sdalhusna00@gmail.com",
+      "href": "https://mail.google.com/mail/?view=cm&to=sdalhusna00@gmail.com",
       "icon": "email"
     }
   },
@@ -34,62 +28,14 @@
       { "days": "Minggu & Hari Libur", "time": "Tutup" }
     ]
   },
-  "form": {
-    "title": "Kirim Pesan",
-    "fields": {
-      "name": {
-        "label": "Nama Lengkap",
-        "placeholder": "Masukkan nama lengkap Anda"
-      },
-      "email": {
-        "label": "Email",
-        "placeholder": "Masukkan alamat email Anda"
-      },
-      "phone": {
-        "label": "No. Telepon",
-        "placeholder": "Masukkan nomor telepon Anda"
-      },
-      "subject": { "label": "Subjek", "placeholder": "Pilih subjek" },
-      "message": {
-        "label": "Pesan",
-        "placeholder": "Tulis pesan Anda di sini..."
-      }
-    },
-    "subjectOptions": [
-      "Informasi Pendaftaran",
-      "Jadwal Kunjungan",
-      "Biaya Pendidikan",
-      "Program Akademik",
-      "Lainnya"
-    ],
-    "submitText": "Kirim Pesan"
-  },
   "socialMedia": {
     "title": "Ikuti Kami",
     "links": [
-      {
-        "id": "facebook",
-        "label": "Facebook",
-        "href": "https://facebook.com/greenwoodacademy",
-        "icon": "facebook"
-      },
       {
         "id": "instagram",
         "label": "Instagram",
         "href": "https://instagram.com/sdalhusnaofficial",
         "icon": "instagram"
-      },
-      {
-        "id": "youtube",
-        "label": "YouTube",
-        "href": "https://youtube.com/greenwoodacademy",
-        "icon": "youtube"
-      },
-      {
-        "id": "linkedin",
-        "label": "LinkedIn",
-        "href": "https://linkedin.com/company/greenwoodacademy",
-        "icon": "linkedin"
       }
     ]
   },
