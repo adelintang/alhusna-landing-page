@@ -1,10 +1,10 @@
 {
   "sectionTitle": "Tentang Kami",
-  "sectionSubtitle": "Mengenal Lebih Dekat Sekolah Alhusna",
-  "description": "SD AL HUSNA adalah sekolah dasar yang berkomitmen menghadirkan pendidikan berkualitas yang memadukan kecerdasan akademik dengan pembentukan karakter dan akhlak mulia. Berdiri sejak tahun 2004, SD AL HUSNA terus tumbuh menjadi lembaga pendidikan yang dipercaya masyarakat dalam mendidik generasi muda yang cerdas, beradab, dan berdaya saing.",
-  "subDescription": "Berlokasi di Gembong RT 03 RW 01, Kelurahan Saradan, Kecamatan Karangmalang, Kabupaten Sragen, Provinsi Jawa Tengah, Indonesia. SD AL HUSNA menyediakan lingkungan belajar yang aman, nyaman, dan menyenangkan bagi anak-anak. Dengan dukungan tenaga pendidik yang profesional dan penuh dedikasi, kami mengintegrasikan pembelajaran akademik, nilai spiritual, serta pengembangan karakter, sehingga setiap siswa dapat berkembang secara optimal dan siap menghadapi tantangan masa depan.",
+  "sectionSubtitle": "Mengenal Lebih Dekat TK & SD Alhusna Sragen",
+  "description": "TK & SD Alhusna Sragen adalah lembaga pendidikan yang berkomitmen menghadirkan pendidikan berkualitas dengan memadukan kecerdasan akademik dan pembentukan karakter mulia. Berdiri sejak tahun 2004, kami terus dipercaya masyarakat sebagai mitra mendidik generasi muda yang cerdas, beradab, dan berdaya saing.",
+  "subDescription": "Kami menyediakan lingkungan belajar yang aman, nyaman, dan menyenangkan dengan tenaga pendidik profesional dan berdedikasi. Melalui pembelajaran terintegrasi yang menggabungkan akademik, nilai spiritual, dan pengembangan karakter, setiap siswa dibimbing untuk mengembangkan potensi optimal dan siap menghadapi masa depan.",
   "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=80",
-  "imageAlt": "Suasana belajar di Sekolah Alhusna",
+  "imageAlt": "Suasana belajar di TK & SD Alhusna Sragen",
   "vision": {
     "title": "Visi",
     "content": "Mewujudkan siswa yang beriman, berilmu, dan berakhlak mulia"
@@ -23,9 +23,9 @@
   },
   "stats": [
     { "id": "years", "value": "2004", "label": "Tahun Berdiri" },
-    { "id": "students", "value": "5000+", "label": "Lulusan" },
-    { "id": "teachers", "value": "150+", "label": "Guru Berkualitas" },
-    { "id": "ratio", "value": "1:15", "label": "Rasio Guru-Siswa" }
+    { "id": "students", "value": "250+", "label": "Lulusan" },
+    { "id": "teachers", "value": "8", "label": "Guru" },
+    { "id": "ratio", "value": "1:6,25", "label": "Rasio Guru-Siswa" }
   ],
   "valuesTitle": "Nilai-Nilai Kami",
   "values": [

@@ -5,7 +5,7 @@
     {
       "id": "interactive-flat-panel",
       "title": "Interactive Flat Panel",
-      "description": "Papan tulis digital canggih dengan layar sentuh interaktif berukuran besar untuk meningkatkan pengalaman belajar. Mendukung presentasi, video pembelajaran, permainan edukatif, dan kuis interaktif. Dapat terhubung dengan berbagai perangkat melalui Wi-Fi dan Bluetooth untuk pembelajaran yang lebih kolaboratif dan menyenangkan.",
+      "description": "Papan tulis digital dengan layar sentuh interaktif untuk pembelajaran kolaboratif. Mendukung presentasi, video, permainan edukatif, dan kuis interaktif dengan konektivitas Wi-Fi dan Bluetooth.",
       "image": "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=800&q=80",
       "features": [
         "Layar Sentuh Multi-touch",
@@ -16,7 +16,7 @@
     {
       "id": "prayer-room",
       "title": "Mushola",
-      "description": "Fasilitas ibadah yang dirancang untuk mendukung pembentukan karakter dan spiritual siswa. Dilengkapi dengan sajadah, mukena, sarung, Al-Qur'an, dan tempat wudhu yang memadai. Lingkungan yang bersih, nyaman, dan tenang menjadikan mushola sebagai sarana pembentukan nilai disiplin, tanggung jawab, dan akhlak mulia.",
+      "description": "Fasilitas ibadah lengkap dengan sajadah, mukena, sarung, Al-Qur'an, dan tempat wudhu. Lingkungan bersih dan nyaman untuk mendukung pembentukan karakter spiritual dan nilai disiplin siswa.",
       "image": "https://images.unsplash.com/photo-1768152860286-15fa04f4b1a1?auto=format&fit=crop&w=800&q=80",
       "features": [
         "Ruang Ibadah Khusus",
@@ -25,46 +25,32 @@
       ]
     },
     {
+      "id": "cafeteria",
+      "title": "Kantin Sekolah",
+      "description": "Kantin yang bersih dan sehat dengan menu makanan bergizi seimbang. Menyediakan berbagai pilihan makanan dan minuman untuk mendukung kesehatan dan energi siswa sepanjang hari belajar.",
+      "image": "https://images.unsplash.com/photo-1495521821757-a1efb6729352?auto=format&fit=crop&w=800&q=80",
+      "features": ["Menu Bergizi", "Lingkungan Bersih", "Harga Terjangkau"]
+    },
+    {
       "id": "classroom",
       "title": "Ruang Kelas Modern",
-      "description": "Ruang kelas ber-AC dengan smart board interaktif, proyektor HD, dan furniture ergonomis untuk kenyamanan belajar.",
+      "description": "Ruang kelas modern dilengkapi dengan Interactive Flat Panel untuk pembelajaran interaktif dan kolaboratif. Dirancang nyaman untuk mendukung proses belajar mengajar yang efektif.",
       "image": "https://images.unsplash.com/photo-1580537659466-0a9bfa916a54?auto=format&fit=crop&w=800&q=80",
-      "features": ["Smart Board", "AC", "Proyektor HD"]
+      "features": ["Interactive Flat Panel", "Kolaboratif", "Nyaman"]
     },
     {
       "id": "library",
       "title": "Perpustakaan",
-      "description": "Koleksi lebih dari 15.000 buku, area baca yang nyaman, dan akses ke database jurnal digital internasional.",
+      "description": "Perpustakaan dengan koleksi buku cerita, buku pelajaran, dan buku referensi yang lengkap. Menyediakan ruang baca yang nyaman dan tenang untuk mendukung minat membaca dan penelusuran informasi siswa.",
       "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=800&q=80",
-      "features": ["15.000+ Buku", "E-Library", "Ruang Baca"]
-    },
-    {
-      "id": "laboratory",
-      "title": "Laboratorium Sains",
-      "description": "Lab Fisika, Kimia, dan Biologi dengan peralatan lengkap untuk eksperimen dan praktikum siswa.",
-      "image": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80",
-      "features": ["Lab Fisika", "Lab Kimia", "Lab Biologi"]
-    },
-    {
-      "id": "computer-lab",
-      "title": "Lab Komputer",
-      "description": "50 unit komputer terbaru dengan koneksi internet high-speed untuk pembelajaran teknologi dan coding.",
-      "image": "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=800&q=80",
-      "features": ["50 Komputer", "Internet Cepat", "Software Lengkap"]
+      "features": ["Koleksi Lengkap", "Ruang Nyaman", "Minat Membaca"]
     },
     {
       "id": "sports",
       "title": "Fasilitas Olahraga",
-      "description": "Lapangan basket indoor, lapangan futsal, kolam renang olimpiade, dan gymnasium lengkap.",
+      "description": "Fasilitas olahraga lengkap dengan lapangan voli, lapangan sepakbola, dan lapangan bulu tangkis untuk mengembangkan kemampuan atletik dan semangat olahraga siswa.",
       "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=800&q=80",
-      "features": ["Lapangan Basket", "Kolam Renang", "Gymnasium"]
-    },
-    {
-      "id": "auditorium",
-      "title": "Auditorium",
-      "description": "Auditorium berkapasitas 500 orang dengan sistem audio visual profesional untuk acara dan pertunjukan.",
-      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-      "features": ["500 Kursi", "Sound System", "Lighting Pro"]
+      "features": ["Lapangan Voli", "Lapangan Sepakbola", "Lapangan Bulu Tangkis"]
     }
   ],
   "ctaText": "Jadwalkan Kunjungan",
