@@ -7,12 +7,20 @@
       "value": "Gembong RT 03 RW 01, Kelurahan Saradan, Kec. Karangmalang, Kabupaten Sragen, Jawa Tengah 57222",
       "icon": "location"
     },
-    "whatsapp": {
-      "label": "WhatsApp",
-      "value": "+6285106007620",
-      "href": "https://wa.me/6285106007620",
-      "icon": "whatsapp"
-    },
+    "whatsapp": [
+      {
+        "label": "WhatsApp SD",
+        "value": "+6285106007620",
+        "href": "https://wa.me/6285106007620",
+        "icon": "whatsapp"
+      },
+      {
+        "label": "WhatsApp TK",
+        "value": "+628998797479",
+        "href": "https://wa.me/628998797479",
+        "icon": "whatsapp"
+      }
+    ],
     "email": {
       "label": "Email",
       "value": "sdalhusna00@gmail.com",

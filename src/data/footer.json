@@ -23,9 +23,19 @@
   "contact": {
     "title": "Kontak",
     "address": "Gembong RT 03 RW 01, Kelurahan Saradan, Kec. Karangmalang, Kabupaten Sragen, Jawa Tengah 57222",
-    "phone": "WhatsApp +62 8510 600 7620",
+    "phones": [
+      {
+        "label": "WhatsApp SD",
+        "value": "+62 8510 600 7620",
+        "href": "https://wa.me/6285106007620"
+      },
+      {
+        "label": "WhatsApp TK",
+        "value": "+62 8998 797 479",
+        "href": "https://wa.me/628998797479"
+      }
+    ],
     "email": "sdalhusna00@gmail.com",
-    "phoneHref": "https://wa.me/6285106007620",
     "emailHref": "https://mail.google.com/mail/?view=cm&to=sdalhusna00@gmail.com"
   },
   "socialMedia": [

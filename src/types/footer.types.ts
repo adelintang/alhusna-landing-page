@@ -16,12 +16,17 @@ export interface FooterLinkGroup {
   links: FooterLink[];
 }
 
+export interface FooterPhoneItem {
+  label: string;
+  value: string;
+  href: string;
+}
+
 export interface FooterContact {
   title: string;
   address: string;
-  phone: string;
+  phones: FooterPhoneItem[];
   email: string;
-  phoneHref: string;
   emailHref: string;
 }
 

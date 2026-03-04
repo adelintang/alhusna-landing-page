@@ -155,9 +155,9 @@ export const ContactSection = ({
                 </div>
               </div>
 
-              {/* Email & WhatsApp - Two Columns */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {([contactInfo.email, contactInfo.whatsapp] as const).map(
+              {/* Email & WhatsApp - Responsive Grid */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {([contactInfo.email, ...contactInfo.whatsapp] as const).map(
                   (info) => (
                     <div
                       key={info.label}

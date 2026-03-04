@@ -24,8 +24,8 @@
   "stats": [
     { "id": "years", "value": "2004", "label": "Tahun Berdiri" },
     { "id": "students", "value": "250+", "label": "Lulusan" },
-    { "id": "teachers", "value": "8", "label": "Guru" },
-    { "id": "ratio", "value": "1:6,25", "label": "Rasio Guru-Siswa" }
+    { "id": "teachers", "value": "11", "label": "Guru" },
+    { "id": "ratio", "value": "1:5,45", "label": "Rasio Guru-Siswa" }
   ],
   "valuesTitle": "Nilai-Nilai Kami",
   "values": [

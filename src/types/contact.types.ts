@@ -15,7 +15,7 @@ export interface ContactInfoItem {
 export interface ContactInfo {
   address: ContactInfoItem;
   email: ContactInfoItem;
-  whatsapp: ContactInfoItem;
+  whatsapp: ContactInfoItem[];
 }
 
 export interface OfficeHour {
