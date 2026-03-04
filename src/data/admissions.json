@@ -37,20 +37,6 @@
       "description": "Formulir data diri calon siswa dan data orang tua/wali",
       "fileName": "formulir-pendaftaran.pdf",
       "fileUrl": "/documents/formulir-pendaftaran.pdf"
-    },
-    {
-      "id": 2,
-      "title": "Formulir Kesehatan Siswa",
-      "description": "Formulir riwayat kesehatan dan kondisi medis siswa",
-      "fileName": "formulir-kesehatan.pdf",
-      "fileUrl": "/documents/formulir-kesehatan.pdf"
-    },
-    {
-      "id": 3,
-      "title": "Surat Pernyataan Orang Tua",
-      "description": "Surat pernyataan kesediaan mengikuti peraturan sekolah",
-      "fileName": "surat-pernyataan.pdf",
-      "fileUrl": "/documents/surat-pernyataan.pdf"
     }
   ]
 }

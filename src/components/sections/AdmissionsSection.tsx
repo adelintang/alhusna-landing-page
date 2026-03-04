@@ -169,62 +169,64 @@ export const AdmissionsSection = ({
             </p>
           </header>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {documents.map((doc) => (
-              <div
-                key={doc.id}
-                className="bg-surface rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-primary/20"
-              >
-                {/* Document Icon */}
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                  <svg
-                    className="w-6 h-6 text-primary"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"
-                    />
-                  </svg>
-                </div>
-
-                {/* Document Info */}
-                <h4 className="font-sans text-lg font-bold text-midnight mb-2">
-                  {doc.title}
-                </h4>
-                <p className="font-sans text-sm text-gray-600 mb-4">
-                  {doc.description}
-                </p>
-
-                {/* Download Button */}
-                <a
-                  href={doc.fileUrl}
-                  download={doc.fileName}
-                  className="inline-flex items-center justify-center w-full px-4 py-3 text-sm font-semibold text-primary bg-primary/10 hover:bg-primary hover:text-white rounded-lg transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-primary/20"
+          <div className="flex justify-center">
+            <div className="w-full max-w-md">
+              {documents.map((doc) => (
+                <div
+                  key={doc.id}
+                  className="bg-surface rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-primary/20"
                 >
-                  <svg
-                    className="w-5 h-5 mr-2"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
+                  {/* Document Icon */}
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                    <svg
+                      className="w-6 h-6 text-primary"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"
+                      />
+                    </svg>
+                  </div>
+
+                  {/* Document Info */}
+                  <h4 className="font-sans text-lg font-bold text-midnight mb-2">
+                    {doc.title}
+                  </h4>
+                  <p className="font-sans text-sm text-gray-600 mb-4">
+                    {doc.description}
+                  </p>
+
+                  {/* Download Button */}
+                  <a
+                    href={doc.fileUrl}
+                    download={doc.fileName}
+                    className="inline-flex items-center justify-center w-full px-4 py-3 text-sm font-semibold text-primary bg-primary/10 hover:bg-primary hover:text-white rounded-lg transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-primary/20"
                   >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-                    />
-                  </svg>
-                  Unduh {doc.fileName}
-                </a>
-              </div>
-            ))}
+                    <svg
+                      className="w-5 h-5 mr-2"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                      />
+                    </svg>
+                    Unduh {doc.fileName}
+                  </a>
+                </div>
+              ))}
+            </div>
           </div>
 
           {/* Contact Info */}
@@ -251,7 +253,8 @@ export const AdmissionsSection = ({
                   Butuh Bantuan?
                 </h4>
                 <p className="font-sans text-sm text-gray-600">
-                  Jika Anda memiliki pertanyaan tentang proses pendaftaran, silakan{" "}
+                  Jika Anda memiliki pertanyaan tentang proses pendaftaran,
+                  silakan{" "}
                   <a
                     href="#contact"
                     className="text-primary font-semibold hover:underline"
