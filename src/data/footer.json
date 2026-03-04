@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "TK & SD Alhusna Sragen",
+    "name": "TK & SD Al Husna Sragen",
     "description": "Membentuk generasi unggul dan berkarakter sejak 2004. Kami berkomitmen memberikan pendidikan berkualitas untuk masa depan anak Indonesia."
   },
   "quickLinks": {
@@ -36,7 +36,7 @@
       "icon": "instagram"
     }
   ],
-  "copyright": "© 2026 TK & SD Alhusna Sragen. Hak Cipta Dilindungi.",
+  "copyright": "© 2026 TK & SD Al Husna Sragen. Hak Cipta Dilindungi.",
   "bottomLinks": [
     { "id": "privacy", "label": "Kebijakan Privasi", "href": "#" },
     { "id": "terms", "label": "Syarat & Ketentuan", "href": "#" }
