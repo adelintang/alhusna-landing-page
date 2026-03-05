@@ -3,8 +3,10 @@
   "sectionSubtitle": "Mengenal Lebih Dekat TK & SD Al Husna Sragen",
   "description": "TK & SD Al Husna Sragen adalah lembaga pendidikan yang berkomitmen menghadirkan pendidikan berkualitas dengan memadukan kecerdasan akademik dan pembentukan karakter mulia. Berdiri sejak tahun 2004, kami terus dipercaya masyarakat sebagai mitra mendidik generasi muda yang cerdas, beradab, dan berdaya saing.",
   "subDescription": "Kami menyediakan lingkungan belajar yang aman, nyaman, dan menyenangkan dengan tenaga pendidik profesional dan berdedikasi. Melalui pembelajaran terintegrasi yang menggabungkan akademik, nilai spiritual, dan pengembangan karakter, setiap siswa dibimbing untuk mengembangkan potensi optimal dan siap menghadapi masa depan.",
-  "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=80",
-  "imageAlt": "Suasana belajar di TK & SD Al Husna Sragen",
+  "image": "./images/main-d969-4058-bd29-5a8c6672d243/desktop.webp",
+  "imageSrcset": "./images/main-d969-4058-bd29-5a8c6672d243/mobile.webp 480w, ./images/main-d969-4058-bd29-5a8c6672d243/tablet.webp 768w, ./images/main-d969-4058-bd29-5a8c6672d243/desktop.webp 1200w",
+  "imageSizes": "(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px",
+  "imageAlt": "Suasana kebersamaan siswa Al Husna Sragen",
   "vision": {
     "title": "Visi",
     "content": "Mewujudkan siswa yang beriman, berilmu, dan berakhlak mulia"
@@ -12,13 +14,13 @@
   "mission": {
     "title": "Misi",
     "items": [
-      "Menanamkan nilai-nilai keimanan dan ketakwaan kepada Allah SWT melalui pembiasaan ibadah dan sikap religius dalam keseharian di sekolah.",
-      "Melaksanaan pembelajaran dan bimbingan seara efetif sehingga siswa dapat berembang seara optimal sesuai dengan potensi yang dimiliki.",
-      "Membangun karakter warga sekolah sebagai warga negara yang cinta tanah air, menghargai perbedaan, dan menjunjung nilai-nilai Pancasila.",
-      "Mendorong peserta didik untuk berpikir kritis dan logis dalam memecahkan masalah secara mandiri dan bertanggung jawab.",
-      "Mewujudkan lingkungan belajar yang kolaboratif antara peserta didik, guru, dan orang tua.",
-      "Menumbuhkan sikap kemandirian dalam belajar dan kehidupan sehari-hari melalui kegiatan intrakurikuler dan ekstrakurikuler.",
-      "Melatih kemampuan berkomunikasi secara santun, aktif, dan efektif dalam berbagai situasi."
+      "Menanamkan nilai keimanan dan ketakwaan melalui pembiasaan ibadah dan sikap religius.",
+      "Melaksanakan pembelajaran dan bimbingan efektif sesuai potensi siswa.",
+      "Membangun karakter warga sekolah yang cinta tanah air, menghargai perbedaan, dan menjunjung Pancasila.",
+      "Mendorong peserta didik berpikir kritis dalam memecahkan masalah secara mandiri.",
+      "Mewujudkan lingkungan belajar kolaboratif antara peserta didik, guru, dan orang tua.",
+      "Menumbuhkan kemandirian dalam belajar melalui kegiatan intrakurikuler dan ekstrakurikuler.",
+      "Melatih kemampuan berkomunikasi santun, aktif, dan efektif."
     ]
   },
   "stats": [

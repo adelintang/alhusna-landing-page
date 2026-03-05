@@ -29,6 +29,8 @@ export interface AboutData {
   description: string;
   subDescription: string;
   image: string;
+  imageSrcset?: string;
+  imageSizes?: string;
   imageAlt: string;
   vision: VisionData;
   mission: MissionData;

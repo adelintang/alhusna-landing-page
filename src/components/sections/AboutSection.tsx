@@ -95,6 +95,8 @@ export const AboutSection = ({
     description,
     subDescription,
     image,
+    imageSrcset,
+    imageSizes,
     imageAlt,
     vision,
     mission,
@@ -139,6 +141,8 @@ export const AboutSection = ({
           <div className="relative">
             <img
               src={image}
+              srcSet={imageSrcset}
+              sizes={imageSizes}
               alt={imageAlt}
               className="w-full h-64 sm:h-80 lg:h-full object-cover rounded-2xl shadow-lg"
               loading="lazy"
@@ -206,7 +210,7 @@ export const AboutSection = ({
                 {mission.items.map((item, index) => (
                   <li
                     key={index}
-                    className="font-sans text-gray-600 flex items-start"
+                    className="font-sans text-sm text-gray-600 flex items-start"
                   >
                     <svg
                       className="w-5 h-5 text-primary mr-2 mt-0.5 shrink-0"
