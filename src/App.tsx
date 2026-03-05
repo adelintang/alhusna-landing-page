@@ -18,6 +18,11 @@ const FacilitiesSection = lazy(() =>
     default: m.FacilitiesSection,
   }))
 );
+const GallerySection = lazy(() =>
+  import("./components/sections/GallerySection").then((m) => ({
+    default: m.GallerySection,
+  }))
+);
 const AdmissionsSection = lazy(() =>
   import("./components/sections/AdmissionsSection").then((m) => ({
     default: m.AdmissionsSection,
@@ -48,6 +53,7 @@ export const App = (): React.ReactElement => {
           <AboutSection />
           <ProgramsSection />
           <FacilitiesSection />
+          <GallerySection />
           <AdmissionsSection />
           <ContactSection />
         </Suspense>

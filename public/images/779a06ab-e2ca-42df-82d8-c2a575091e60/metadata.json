@@ -1,0 +1,41 @@
+{
+  "name": "779a06ab-e2ca-42df-82d8-c2a575091e60",
+  "originalSize": 93849,
+  "variants": [
+    {
+      "breakpoint": "mobile",
+      "width": 480,
+      "height": 270,
+      "webp": {
+        "file": "mobile.webp",
+        "size": 27276
+      }
+    },
+    {
+      "breakpoint": "tablet",
+      "width": 768,
+      "height": 432,
+      "webp": {
+        "file": "tablet.webp",
+        "size": 54240
+      }
+    },
+    {
+      "breakpoint": "desktop",
+      "width": 1200,
+      "height": 675,
+      "webp": {
+        "file": "desktop.webp",
+        "size": 95164
+      }
+    }
+  ],
+  "srcset": {
+    "webp": "./779a06ab-e2ca-42df-82d8-c2a575091e60/mobile.webp 480w, ./779a06ab-e2ca-42df-82d8-c2a575091e60/tablet.webp 768w, ./779a06ab-e2ca-42df-82d8-c2a575091e60/desktop.webp 1200w"
+  },
+  "sizes": "(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px",
+  "summary": {
+    "totalWebpSize": 176680,
+    "avgWebpReduction": "37.2%"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "sectionTitle": "Aktivitas Siswa",
+  "sectionSubtitle": "Momen-momen berharga dalam perjalanan belajar dan pengembangan diri siswa Al Husna",
+  "images": [
+    {
+      "id": "0fe8b736-b5d4-4dce-a8b2-a399d1140c47",
+      "srcset": "./images/0fe8b736-b5d4-4dce-a8b2-a399d1140c47/mobile.webp 480w, ./images/0fe8b736-b5d4-4dce-a8b2-a399d1140c47/tablet.webp 768w, ./images/0fe8b736-b5d4-4dce-a8b2-a399d1140c47/desktop.webp 1200w",
+      "sizes": "(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px",
+      "alt": "Aktivitas siswa belajar bersama"
+    },
+    {
+      "id": "18fedcad-5ae4-409b-bcdc-48a3bc43133f",
+      "srcset": "./images/18fedcad-5ae4-409b-bcdc-48a3bc43133f/mobile.webp 480w, ./images/18fedcad-5ae4-409b-bcdc-48a3bc43133f/tablet.webp 768w, ./images/18fedcad-5ae4-409b-bcdc-48a3bc43133f/desktop.webp 1200w",
+      "sizes": "(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px",
+      "alt": "Siswa mengikuti kegiatan pembelajaran interaktif"
+    },
+    {
+      "id": "779a06ab-e2ca-42df-82d8-c2a575091e60",
+      "srcset": "./images/779a06ab-e2ca-42df-82d8-c2a575091e60/mobile.webp 480w, ./images/779a06ab-e2ca-42df-82d8-c2a575091e60/tablet.webp 768w, ./images/779a06ab-e2ca-42df-82d8-c2a575091e60/desktop.webp 1200w",
+      "sizes": "(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px",
+      "alt": "Kegiatan olahraga siswa di lapangan"
+    },
+    {
+      "id": "main-d969-4058-bd29-5a8c6672d243",
+      "srcset": "./images/main-d969-4058-bd29-5a8c6672d243/mobile.webp 480w, ./images/main-d969-4058-bd29-5a8c6672d243/tablet.webp 768w, ./images/main-d969-4058-bd29-5a8c6672d243/desktop.webp 1200w",
+      "sizes": "(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px",
+      "alt": "Siswa berfoto bersama di sekolah"
+    },
+    {
+      "id": "7c640013-9018-4ac3-9fc9-47c7e91ed3eb",
+      "srcset": "./images/7c640013-9018-4ac3-9fc9-47c7e91ed3eb/mobile.webp 480w, ./images/7c640013-9018-4ac3-9fc9-47c7e91ed3eb/tablet.webp 768w, ./images/7c640013-9018-4ac3-9fc9-47c7e91ed3eb/desktop.webp 1200w",
+      "sizes": "(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px",
+      "alt": "Siswa dalam acara sekolah"
+    },
+    {
+      "id": "7d57454b-9e6c-4f16-ab05-9842d1250a00",
+      "srcset": "./images/7d57454b-9e6c-4f16-ab05-9842d1250a00/mobile.webp 480w, ./images/7d57454b-9e6c-4f16-ab05-9842d1250a00/tablet.webp 768w, ./images/7d57454b-9e6c-4f16-ab05-9842d1250a00/desktop.webp 1200w",
+      "sizes": "(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px",
+      "alt": "Siswa terlibat dalam aktivitas kelompok"
+    },
+    {
+      "id": "83f28112-38bb-4428-9500-a18fffeef825",
+      "srcset": "./images/83f28112-38bb-4428-9500-a18fffeef825/mobile.webp 480w, ./images/83f28112-38bb-4428-9500-a18fffeef825/tablet.webp 768w, ./images/83f28112-38bb-4428-9500-a18fffeef825/desktop.webp 1200w",
+      "sizes": "(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px",
+      "alt": "Siswa menampilkan hasil karya di sekolah"
+    },
+    {
+      "id": "a1f34dfa-b36d-4aae-96df-8f432cb3db0c",
+      "srcset": "./images/a1f34dfa-b36d-4aae-96df-8f432cb3db0c/mobile.webp 480w, ./images/a1f34dfa-b36d-4aae-96df-8f432cb3db0c/tablet.webp 768w, ./images/a1f34dfa-b36d-4aae-96df-8f432cb3db0c/desktop.webp 1200w",
+      "sizes": "(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px",
+      "alt": "Siswa belajar dengan teknologi di kelas"
+    },
+    {
+      "id": "d125a498-6c4b-4665-8b6d-47ab413ce4a2",
+      "srcset": "./images/d125a498-6c4b-4665-8b6d-47ab413ce4a2/mobile.webp 480w, ./images/d125a498-6c4b-4665-8b6d-47ab413ce4a2/tablet.webp 768w, ./images/d125a498-6c4b-4665-8b6d-47ab413ce4a2/desktop.webp 1200w",
+      "sizes": "(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px",
+      "alt": "Siswa dalam kegiatan pengembangan diri"
+    }
+  ]
+}
