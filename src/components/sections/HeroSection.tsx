@@ -4,24 +4,13 @@ import heroData from "../../data/hero.json";
 export const HeroSection = ({
   data = heroData,
 }: HeroSectionProps): React.ReactElement => {
-  const { schoolName, tagline, backgroundImage, primaryCta, scrollTarget } =
-    data;
+  const { schoolName, tagline, primaryCta, scrollTarget } = data;
 
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-linear-to-br from-midnight via-midnight to-midnight/95"
       aria-label="Hero section"
     >
-      {/* Background Image with Overlay */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
-        role="img"
-        aria-label="School campus background"
-      >
-        <div className="absolute inset-0 bg-midnight/70" />
-      </div>
-
       {/* Content Container */}
       <div className="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* School Name */}

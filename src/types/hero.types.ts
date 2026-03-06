@@ -6,7 +6,6 @@ export interface CtaButton {
 export interface HeroData {
   schoolName: string;
   tagline: string;
-  backgroundImage: string;
   primaryCta: CtaButton;
   scrollTarget: string;
 }
