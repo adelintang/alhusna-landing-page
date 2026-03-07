@@ -26,5 +26,3 @@ dist-ssr
 .env
 .clinerules
 .claudeignore
-
-complain-lighthouse
