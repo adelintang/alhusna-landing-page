@@ -10,8 +10,8 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          // Pisahkan vendor React untuk better caching
           "react-vendor": ["react", "react-dom"],
+          "fontsource": ["@fontsource/poppins"],
         },
       },
     },
@@ -19,8 +19,10 @@ export default defineConfig({
     cssCodeSplit: true,
     // Minify untuk ukuran lebih kecil
     minify: "esbuild",
-    // Target browser modern untuk output lebih kecil
-    target: "es2015",
+    // Target browser modern (React 19 requires modern browsers)
+    target: "es2020",
+    // Tidak expose source code di production
+    sourcemap: false,
     // Chunk size warning threshold
     chunkSizeWarningLimit: 1000,
   },

@@ -37,24 +37,34 @@ const Footer = lazy(() =>
   import("./components/layout/Footer").then((m) => ({ default: m.Footer }))
 );
 
+const SectionFallback = (): React.ReactElement => (
+  <div className="min-h-96 flex items-center justify-center">
+    <div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin" />
+  </div>
+);
+
 export const App = (): React.ReactElement => {
   return (
     <>
       <Header />
       <main className="bg-light min-h-screen">
         <HeroSection />
-        <Suspense
-          fallback={
-            <div className="min-h-screen flex items-center justify-center">
-              <div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin" />
-            </div>
-          }
-        >
+        <Suspense fallback={<SectionFallback />}>
           <AboutSection />
+        </Suspense>
+        <Suspense fallback={<SectionFallback />}>
           <ProgramsSection />
+        </Suspense>
+        <Suspense fallback={<SectionFallback />}>
           <FacilitiesSection />
+        </Suspense>
+        <Suspense fallback={<SectionFallback />}>
           <GallerySection />
+        </Suspense>
+        <Suspense fallback={<SectionFallback />}>
           <AdmissionsSection />
+        </Suspense>
+        <Suspense fallback={<SectionFallback />}>
           <ContactSection />
         </Suspense>
       </main>
