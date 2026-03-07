@@ -7,6 +7,8 @@ export interface NavLink {
 export interface NavBrand {
   name: string;
   href: string;
+  logo?: string;
+  logoDark?: string;
 }
 
 export interface NavCta {

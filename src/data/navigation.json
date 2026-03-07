@@ -1,7 +1,9 @@
 {
   "brand": {
     "name": "TK & SD Al Husna Sragen",
-    "href": "#"
+    "href": "#",
+    "logo": "/logo/logo.svg",
+    "logoDark": "/logo/logo-dark.svg"
   },
   "links": [
     { "id": "home", "label": "Beranda", "href": "#" },

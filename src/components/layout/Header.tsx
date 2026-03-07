@@ -42,11 +42,22 @@ export const Header = ({
           {/* Brand / Logo */}
           <a
             href={brand.href}
-            className={`font-sans font-bold text-lg sm:text-xl transition-colors ${
-              isScrolled ? "text-midnight" : "text-white"
-            }`}
+            className="flex items-center gap-3 focus:outline-none focus:ring-2 focus:ring-primary/50 rounded-lg"
           >
-            {brand.name}
+            {brand.logo && (
+              <img
+                src={brand.logo}
+                alt={brand.name}
+                className="h-10 sm:h-12 w-auto"
+              />
+            )}
+            <span
+              className={`font-sans font-bold text-lg sm:text-xl transition-colors ${
+                isScrolled ? "text-midnight" : "text-white"
+              }`}
+            >
+              {brand.name}
+            </span>
           </a>
 
           {/* Desktop Navigation */}
