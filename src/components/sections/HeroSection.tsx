@@ -16,7 +16,7 @@ export const HeroSection = ({
         {/* School Name */}
         <h1 className="font-sans text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 sm:mb-6 tracking-tight">
           <span className="block">Welcome to</span>
-          <span className="block text-primary mt-2">{schoolName}</span>
+          <span className="block text-emerald-300 mt-2">{schoolName}</span>
         </h1>
 
         {/* Tagline */}
