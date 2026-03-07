@@ -1,7 +1,21 @@
 @import "tailwindcss";
-/* Import hanya subset Latin untuk mengurangi ukuran bundle */
-@import "@fontsource/poppins/latin-400.css";
-@import "@fontsource/poppins/latin-700.css";
+
+/* Define custom fonts dengan font-display: swap untuk fallback lebih cepat */
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/poppins-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/poppins-latin-700-normal.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 @theme {
   --color-brand: #3b82f6;

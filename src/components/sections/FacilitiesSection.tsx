@@ -20,6 +20,8 @@ const FacilityCard = ({ facility }: FacilityCardProps): React.ReactElement => {
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
           loading="lazy"
           decoding="async"
+          width={400}
+          height={224}
         />
         <div className="absolute inset-0 bg-linear-to-t from-midnight/60 via-transparent to-transparent" />
 

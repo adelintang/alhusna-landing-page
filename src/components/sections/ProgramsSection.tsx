@@ -140,7 +140,7 @@ const ProgramCard = ({ program }: ProgramCardProps): React.ReactElement => {
           <h3 className="font-sans text-xl font-bold text-midnight mb-1">
             {title}
           </h3>
-          <p className="text-sm text-primary font-medium">{grades}</p>
+          <p className="text-sm text-midnight font-medium">{grades}</p>
         </div>
 
         {/* Description */}

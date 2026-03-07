@@ -206,7 +206,7 @@ export const AdmissionsSection = ({
                   <a
                     href={doc.fileUrl}
                     download={doc.fileName}
-                    className="inline-flex items-center justify-center w-full px-4 py-3 text-sm font-semibold text-primary bg-primary/10 hover:bg-primary hover:text-white rounded-lg transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-primary/20"
+                    className="inline-flex items-center justify-center w-full px-4 py-3 text-sm font-semibold text-midnight bg-primary/10 hover:bg-primary hover:text-white rounded-lg transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-primary/20"
                   >
                     <svg
                       className="w-5 h-5 mr-2"

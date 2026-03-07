@@ -147,6 +147,8 @@ export const AboutSection = ({
               className="w-full h-64 sm:h-80 lg:h-full object-cover rounded-2xl shadow-lg"
               loading="lazy"
               decoding="async"
+              width={600}
+              height={400}
             />
             <div className="absolute inset-0 rounded-2xl bg-linear-to-t from-midnight/20 to-transparent" />
           </div>
@@ -238,7 +240,7 @@ export const AboutSection = ({
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-16">
           {stats.map((stat) => (
             <div key={stat.id} className="bg-light rounded-xl p-6 text-center">
-              <p className="font-sans text-3xl sm:text-4xl font-bold text-primary mb-1">
+              <p className="font-sans text-3xl sm:text-4xl font-bold text-midnight mb-1">
                 {stat.value}
               </p>
               <p className="font-sans text-sm sm:text-base text-gray-600">

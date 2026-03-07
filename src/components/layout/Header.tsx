@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useTransition } from "react";
 import type { HeaderProps } from "../../types/navigation.types";
 import navigationData from "../../data/navigation.json";
 
@@ -8,13 +8,16 @@ export const Header = ({
   const { brand, links, cta, mobileMenuLabel, closeMenuLabel } = data;
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [, startTransition] = useTransition();
 
   useEffect(() => {
     const handleScroll = (): void => {
-      setIsScrolled(window.scrollY > 50);
+      startTransition(() => {
+        setIsScrolled(window.scrollY > 50);
+      });
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -49,6 +52,8 @@ export const Header = ({
                 src={brand.logo}
                 alt={brand.name}
                 className="h-10 sm:h-12 w-auto"
+                width={200}
+                height={50}
               />
             )}
             <span

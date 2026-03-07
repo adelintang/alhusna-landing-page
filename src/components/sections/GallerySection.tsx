@@ -20,6 +20,8 @@ const GalleryImage = ({ image }: GalleryImageProps): React.ReactElement => {
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           loading="lazy"
           decoding="async"
+          width={640}
+          height={360}
         />
       </div>
     </div>
