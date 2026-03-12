@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://alhusna.vercel.app/sitemap.xml
+Sitemap: https://alhusnasragen.sch.id/sitemap.xml
